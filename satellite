@@ -1,0 +1,3 @@
+The cab file for your application has been built as 'C:\WINDOWS\Desktop\desk top\Projects\allaire\New Folder\satellite.CAB'.
+
+There is also a batch file in the support directory (C:\WINDOWS\Desktop\desk top\Projects\allaire\New Folder\Support\satellite.BAT) that will allow you to recreate the cab file in case you make changes to some of the files.
