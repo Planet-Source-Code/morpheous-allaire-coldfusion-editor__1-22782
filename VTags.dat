@@ -1,0 +1,346 @@
+Account:
+Account Partial="True, FALSE" 
+Address1 
+Address2 
+Balance 
+BillTo 
+City 
+Country 
+ExpDate 
+LastUpdate 
+Number 
+PayType 
+Phone 
+RecNumber 
+State 
+UserId 
+Zip 
+
+Bar:
+BarColor 
+SetBarColors Color1="Color" Color2="Color" 
+SwitchBarColor 
+
+Bid:
+BidAmount 
+BidDate 
+BidUpDate 
+Comments 
+IP 
+Lot 
+MaxBid 
+Message 
+Number 
+Quantity 
+RecNumber 
+RetDate 
+Retracted 
+RetractIP 
+UserId Link="" 
+
+Bidder:
+Bid 
+BidAmount 
+BidDate 
+BidTime 
+Comment 
+MaxBid 
+PrevBid 
+PrevQuantity 
+PrevTotalBid 
+Quantity 
+UseProxy 
+
+Category:
+Active 
+CommProfile 
+FeeProfile 
+Id 
+IsRoom 
+List Column="True, FALSE" DisplayField="Field Name" End="Id" Field="Value List" Name="Prompt" Start="Id" Style="Checkbox,Radio,Select" Type="Room" UserId="Id" Wrap="Tag" 
+Name 
+TotActive 
+URL 
+User{n} 
+UserId 
+
+Compare:
+Fields Field1="Text" Field2="Text" Match="Text" NoMatch="Text" 
+Get Domain="Domain Name" Encrypted="True, FALSE" Key="Key Code" Name="Cookie Name" Path="Pathname" Secure="True, FALSE" 
+Remove Name="Cookie Name" 
+Set Domain="Domain Name" Encrypted="True, FALSE" Expire="" Key="Key Code" Name="Cookie Name" Path="Pathname" Secure="True, FALSE" Value="" 
+
+Custom:
+CurrPage 
+Custom:ItemsPerPage 
+Listings File="File" Template="Template" TemplateName="Template" 
+Navigation 
+TotalPages 
+TotalRecs 
+
+Else:
+ 
+EndIf:
+
+FeeProfile:BoldFee 
+
+FeeProfile:FeatureFee 
+
+Formfield:{Value} Default="Value" Encrypt="True, FALSE" Escape="True, FALSE" Exchange="Language Id" UseFormat="True, FALSE" 
+
+Formfield:ScriptName 
+
+HTML:
+Expire Offset="Time In Seconds" 
+
+Footer 
+
+Header Title="Page Title" 
+
+Menu 
+
+Title 
+
+Icon:
+Photo File="Image Name" Label="Text" Link="True, FALSE" 
+
+Sold 
+
+Status 
+
+If:
+Buyer 
+BuyerOnly 
+CheckReferer 
+FieldChecked Name="Checkbox" 
+FieldEntered Name="Field Name" 
+FullAccess 
+ItemActive 
+ItemClosed 
+ItemPending 
+LiveAuction 
+LoggedIn 
+Mailsent 
+PrivateAuction 
+ReserveMet 
+Results Query="Query Name" 
+ReverseAuction 
+RFP 
+Seller 
+SellerOnly 
+SwitchBack 
+TimeExtended 
+UserStatus Type="Active, Pending, Inactive, Locked, Canceled, None" 
+
+Include:
+Footer 
+Header 
+Menu 
+Text File="File Name" 
+
+Input:
+Check Alt="Text/HTML" Compare="Text" Field="Field Name" List="Values" Result="Text/HTML" Table="Table Name" Value="Text" 
+Checkbox Default="Text" Name="Element Name" Value="Text" 
+Radio Column="True, FALSE" Default="Value" Name="Element Name" Values="Value List" 
+Select End="Date" Extra="Text" Name="Element Name" Size="Number" Start="Date" Type="Radio, NONE" Values="Value List" 
+
+Item:
+Bidderlist 
+Bidders Count="" Template="" 
+BidTimes 
+Bold Values="Text" 
+Category Link="True, FALSE" 
+Countdown 
+DateIn 
+DateSold 
+Days 
+DecPerSec 
+Description FilterHTML="True, FALSE" Length="Number" 
+DisplayPhoto Align="Left, Center, Right" Alt="Text" Border="Pixels" Height="Pixels" HSpace="Pixels" Id="Number" Link="True, FALSE" Target="Window/Frame Name" VAlign="Top, Middle, Bottom" VSpace="Pixels" Width="Pixels" 
+Duration 
+EndTime Format="Time Format" 
+ExtendText Text="Text" 
+Feature 
+File Id="Number" Link="True, FALSE" Verify="True, FALSE" 
+HighBid Exchange="Language Id" UseFormat="True, FALSE" 
+HighBidder Link="True, FALSE" Rating="True, FALSE" 
+Increment Exchange="Language Id" UseFormat="True, FALSE" 
+Item Escape="True, FALSE" Link="True, FALSE" 
+LastUpdate 
+Link 
+Live Values="Text" 
+Location 
+Lot Link="True, FALSE" 
+LotLink 
+MinBid Exchange="Language Id" UseFormat="True, FALSE" 
+NotifiedOn 
+NumBids 
+Options 
+OverRide 
+Photo Id="Number" 
+PhotoLink Id="Number" 
+Price Exchange="Language Id" UseFormat="True, FALSE" 
+Private Values="Text" 
+Quantity 
+Relisted 
+RelistFrom 
+Reserve Exchange="Language Id" UseFormat="True, FALSE" 
+ReserveText Partial="Text" Text="Text" 
+Reverse Values="Text" 
+RFP Values="Text" 
+SelectBid Exchange="Language Id" ListOnly="True, FALSE" Prompt="Text" UseFormat="True, FALSE" 
+SelectQuantity 
+Seller Rating="True, FALSE" 
+SellerEmail Rating="True, FALSE" 
+SellerId Link="True, FALSE" Rating="" 
+Sendlot 
+Shipping 
+StartDate Format="Date Format" 
+StartTime Format="Time Format" 
+Status 
+Switchback Values="Text" 
+TimesViewed 
+Title Escape="True, FALSE" Link="True, FALSE" 
+TitleLink 
+URL 
+User{n} 
+UserId Link="True, FALSE" Rating="" 
+ViewTimes 
+Weight
+ 
+Mail:
+Attachment Value="File" 
+BCC Value="Address" 
+Body Value="Text" 
+CC Value="Address" 
+From Value="Address" 
+Port Value="Number" 
+Recipient Value="Address" 
+Reset 
+Send 
+Server Value="Host/IP" 
+Subject NoSet="True, FALSE" Title="Subject" 
+
+Payment:
+Amount UseFormat="True, FALSE" 
+Comments 
+Lot 
+PostDate 
+PostType 
+RecNumber 
+UserId 
+
+Query:
+Close Name="Table Name" 
+Execute Name="Query Name" SQL="SQL Statement" 
+Listings File="File" Name="Table Name" Template="Template" 
+Open Name="Table Name" SQL="SQL Statement" 
+Results File="File" Name="Table Name" Template="Template" 
+
+Request:
+{Request Header} 
+ScriptName 
+
+
+Contact 
+Email Link="True, FALSE" 
+Link 
+Rating 
+
+Session:
+End 
+Get Default="" Name="Variable Name" 
+Set Name="Variable Name" Value="Variable Value" 
+Start Length="Number" 
+
+Shopper:
+Active 
+Categories 
+Expires 
+KeyWords 
+LastUpdate 
+List 
+UserId
+ 
+Site:
+AdminEmail 
+BaseDocPath 
+BaseDocURL 
+CGIPath 
+DocPath 
+DocURL 
+Durationlist Values="Number Range" 
+Email 
+ExchangeRate Exchange="Language Id" 
+Globals Name="Global Key" 
+Name 
+SiteId 
+TimeZone 
+URL 
+URLSuffix Language="Language Id" 
+
+System:
+CheckLogin PassThru="Path" Template="Login Template" 
+CheckReferer Exclude="Get,Post,Put,Head" 
+Date Add="Days" Escape="True, FALSE" Format="Date Format" 
+DateSelect Default="Date" End="Date" Start="Date" 
+ExecPage PageId="Id" Update="True, FALSE" 
+ExecURL Method="GET, Post" URL="URL" 
+Now Add="Seconds" Escape="True, FALSE" Format="Date/Time Format" 
+RaiseError Message="Message Text" 
+RandNum Limit="Max Number" Offset="Number" 
+RawDate 
+RawNow 
+RawTime 
+Time Add="Seconds" Escape="True, FALSE" Format="Time Format" 
+VerifyUser 
+
+Table:
+Close 
+EnumColumns Style="Table" 
+EnumFields Style="Table" 
+Listings File="Filename" Template="Inline Template" 
+Results File="Filename" Template="Inline Template" 
+
+User:
+AccessType 
+Address1 
+Address2 
+Bid 
+City 
+CommProfile 
+Confo 
+Country 
+DateIn 
+DOB 
+Email Link="True, FALSE" 
+Failed 
+Fax 
+FeeProfile 
+FirstName 
+HomePhone 
+Id 
+IP 
+LastAttempt 
+LastName 
+LastUpdate 
+LoginsLeft 
+Mail 
+OrgName 
+Password Encrypt="True, FALSE" 
+PayTypes 
+Rating 
+Reference 
+SSN 
+State 
+Status 
+TaxId 
+Unlock 
+User{n} 
+UserId Encrypt="True, FALSE" Link="True, FALSE" 
+WorkPhone 
+Zip 
+
+Var:
+Get Name="Variable Name" Value="Data" 
+Set Name="Variable Name" 
